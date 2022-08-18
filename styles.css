@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #e7e7e7;
+}
+#navbar {
+  padding: 1rem 3rem;
+}
+section {
+  display: flex;
+  justify-content: space-evenly;
+  height: 80vh;
+}
+form{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#textarea::placeholder,
+#textarea {
+  color: #0a3871;
+  font-size: 32px;
+  line-height: 48px;
+  line-height: 150%;
+  overflow-y: auto;
+  height: 100%;
+  border: none;
+  width: 100%;
+  background-color: #e7e7e7;
+  resize: none;
+  outline: none;
+}
+
+
+#exclamacion {
+  display: inline-block;
+  background-color: #495057;
+  border-radius: 100%;
+  width: 18px;
+  font-size: 0.9rem;
+  color: white;
+  text-align: center;
+}
+
+#parraph {
+  color: #495057;
+  font-size: 12px;
+  line-height: 18px;
+  line-height: 158%;
+  opacity: 80%;
+}
+
+#container-btns {
+  padding: 0.3rem 0;
+  
+}
+
+#container-btns button {
+  font-size: 16px;
+  line-height: 19px;
+  line-height: 100%;
+  width: 328px;
+  height: 67px;
+  border-radius: 24px;
+  border: #0a3871 1px solid;
+}
+
+#btnone {
+  background-color: #0a3871;
+  color: white;
+}
+
+#btntwo {
+  color: #0a3871;
+  background-color: #d8dfe8;
+}
+
+#containertwo h2 {
+  font-size: 24px;
+  line-height: 28px;
+  line-height: 100%;
+  color: #343a40;
+  width: 20rem;
+  text-align: center;
+  margin: 10px 0px;
+}
+#containertwo p {
+  font-size: 16px;
+  line-height: 24px;
+  line-height: 158%;
+  color: #343a40;
+  width: 19rem;
+  text-align: center;
+}
+
+#containerhidden {
+  height: 80vh;
+  background-color: white;
+  display: none;
+  width: 25vw;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 1.2rem;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);}
+
+
+#parrafo-escondido {
+  font-size: 25px;
+  line-height: 24px;
+  line-height: 158%;
+  color: #40474e;
+  padding: 1rem 1rem;
+  overflow-y: auto;
+  word-wrap: break-word;
+
+}
+
+#btn-clipboard{
+  font-size: 16px;
+  line-height: 19px;
+  line-height: 100%;
+  width: 328px;
+  height: 67px;
+  border-radius: 24px;
+  border: #0a3871 1px solid;
+  color: #0a3871;
+  background-color: #d8dfe8;
+  align-self: center;
+}
+
+

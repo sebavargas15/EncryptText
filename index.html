@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+            <a href="#"><img src="assets/img/Vector.svg" alt="logo"></a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div id="containerone">
+                <form name="form" id="form">
+                    <textarea id="textarea" name="textarea" placeholder="Ingrese su texto aqui"></textarea>
+                    <div>
+                    <span id="exclamacion">!</span>
+                    <span id="parraph">Solo letras minusculas y sin acentos</span>
+                </div>
+                    <div id="container-btns">
+                        <button id="btnone" type="submit" value="encriptar">Encriptar</button>
+                        <button id="btntwo" type="submit" value="desencriptar">Desencriptar</button>
+                    </div>
+                </form>
+            </div>
+            <div id="containertwo">
+                <img src="assets/img/Muñeco.png" alt="persona">
+                <h2>Ningun mensaje fue encontrado</h2>
+                <p>Ingresa el texto que desees encriptar o desencriptar</p>
+            </div>
+            <div id="containerhidden">
+                <p id="parrafo-escondido"></p>
+                <button id="btn-clipboard" type="button">Copiar</button>
+            </div>
+       </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+
+</html>
