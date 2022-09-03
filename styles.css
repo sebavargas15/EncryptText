@@ -132,4 +132,32 @@ form{
   align-self: center;
 }
 
+@media (max-width: 1024px){
+  #containertwo img{
+    display: none;
+  }
 
+  section{
+    width: 100%;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  #containerone{
+    width: 100%;
+  }
+#containerone form textarea{
+  text-align: center;
+}
+  #containertwo{
+    padding-top: 2rem;
+  }
+  
+  #containerhidden{
+    width: 100%;
+    height: 100%;
+    border-radius: 2rem;
+    background-color: #ffffff60;
+  }
+
+}
